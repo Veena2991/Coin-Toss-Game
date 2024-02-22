@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.coinTossGame-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #a35200;
+}
+
+.heads-or-tails-txt {
+  font-size: 25px;
+  color: #334155;
+  font-weight: bold;
+}
+
+.coin-img {
+  height: 150px;
+}
+
+.toss-coin-btn {
+  outline: none;
+  border: none;
+  background-color: #f9d423;
+  font-size: 15px;
+  font-weight: bold;
+  color: #a35200;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #475569;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .result-container {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 250px;
+    margin: 20px;
+  }
+}
